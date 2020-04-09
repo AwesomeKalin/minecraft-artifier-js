@@ -6,6 +6,9 @@
     "build": "del /s web && webpack --config=./build/webpack.prod.conf.js",
     "prepare": "node prepare.js"
   },
+  "engines": {
+    "node": "12.16.x"
+  },
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
