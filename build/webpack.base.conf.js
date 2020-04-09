@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    context: path.join(__dirname, '../gh-pages'),
+    context: path.join(__dirname, '../docs'),
     entry: {
         index: './index.js'
     },
